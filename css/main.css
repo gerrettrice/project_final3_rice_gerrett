@@ -1,0 +1,418 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background: rgb(17, 43, 135); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(17, 43, 135, 1) 0%, rgba(21, 7, 40, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(17, 43, 135, 1) 0%, rgba(21, 7, 40, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(17, 43, 135, 1) 0%, rgba(21, 7, 40, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#112b87', endColorstr='#150728', GradientType=0); /* IE6-9 */
+    background-size: 800%;
+}
+
+/* Text */
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
+    color: #cc3333;
+    font-weight: 900;
+    text-shadow: 0 1px 5px #888888;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5em;
+    color: #333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
+    color: #cc3333;
+    font-weight: 900;
+    text-shadow: 0 1px 5px #888888;
+}
+
+h4 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.25em;
+    color: #ff9933;
+    font-weight: 700;
+}
+
+h4.favorite {
+    display: inline-block;
+    margin-right: 0.6em;
+}
+
+h5 {
+    font-family: "Raleway", sans-serif;
+    color: #333333;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    color: #333333;
+    font-size: 0.8em;
+}
+
+/* Home */
+.sTop {
+    height: 100%;
+}
+
+#landing {
+    width: 100%;
+    background: transparent;
+    background-image: url(../img/stars.png);
+    max-width: 2000px;
+    overflow: hidden;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    margin-left: -6%;
+    margin-top: 55px;
+}
+
+.subtitle {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+    text-shadow: none;
+    color: white;
+}
+
+svg {
+    width: 60%;
+    margin: auto;
+    min-width: 320px;
+}
+
+#alien1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -110px;
+    min-width: 360px;
+    width: 10%;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@media screen and (min-width: 1350px) {
+    #alien1 {
+        margin-right: 18%;
+    }
+}
+
+/* Header */
+.subMenu {
+    z-index: 1000;
+    width: 100%;
+    background: #0977bc;
+    position: fixed;
+}
+
+.contact_bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+    background-image: url(../img/cheesetexture.jpg);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.contact_bar ul {
+    min-height: 30px;
+}
+
+.contact_bar ul li {
+    display: inline;
+    position: relative;
+}
+
+.section {
+    padding-top: 2em;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1300px;
+    background: white;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.subNavBtn {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+    text-decoration: none;
+    font-size: 0.7em;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+}
+
+@media only screen and (min-width: 500px) {
+    .subNavBtn {
+        font-size: 1.15em;
+    }
+}
+
+.subMenu a:hover {
+    background: #1783c7;
+}
+
+.active {
+    background: #25aae1;
+}
+
+/* Sections */
+.section_heading {
+    text-align: center;
+}
+
+.inner {
+    position: relative;
+}
+
+.inner::after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid grey;
+    box-shadow: 0 2px 6px #888888;
+    margin: auto;
+    margin-top: 0.3em;
+}
+
+@media only screen and (min-width: 760px) {
+    .flex-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+
+/* Typography */
+.typography {
+    width: 100%;
+    flex: 1 0 auto;
+    padding: 1em;
+}
+
+.history {
+    padding: 1em;
+}
+
+.menu_heading {
+    width: 100%;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 675px) {
+    .typography {
+        width: 40%;
+        padding: 2em;
+    }
+
+    .typography:last-child {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .typography {
+        width: 30%;
+        padding: 2em;
+    }
+
+    .typography:last-child {
+        width: 30%;
+    }
+}
+
+/* Food Pics */
+.food_pics_container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#onionrings {
+    background-image: url(../img/onionrings.png);
+    background-position: center center;
+}
+
+#fries {
+    background-image: url(../img/fries.jpg);
+    background-position: center center;
+}
+
+#potato {
+    background-image: url(../img/potato.png);
+    background-position: center center;
+}
+
+#slice {
+    background-image: url(../img/slice.png);
+    background-position: bottom center;
+}
+
+#saucer {
+    background-image: url(../img/saucer.jpg);
+    background-position: right center;
+}
+
+#armageddon {
+    background-image: url(../img/armageddon.jpg);
+    background-position: right center;
+}
+
+#cookies {
+    background-image: url(../img/cookies.png);
+}
+
+#lavacake {
+    background-image: url(../img/lavacake.png);
+    background-position: center center;
+}
+
+#pudding {
+    background-image: url(../img/pudding.png);
+    background-position: right center;
+}
+
+#soda {
+    background-image: url(../img/soda.png);
+}
+
+#icee {
+    background-image: url(../img/icee.png);
+    background-position: center center;
+}
+
+#milkshake {
+    background-image: url(../img/milkshakes.png);
+    background-position: top center;
+}
+
+.flex-item {
+    width: 30%;
+    min-width: 250px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    max-height: 500px;
+    background-size: cover;
+    padding: 4em;
+    margin: 0.2em;
+}
+
+
+@media screen and (min-width: 675px) {
+    .flex-item {
+        margin: 0.15em;
+    }
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: #333333;
+    padding: 2em;
+    color: white;
+    margin-top: 3em;
+    border-top: 0.4em solid white;
+}
+
+.footer_container {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    font-family: "Orbitron", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.social {
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+}
+
+#twitter {
+    width: 40px;
+    margin-right: 1em;
+}
+
+#facebook {
+    width: 30px;
+    margin-right: 1em;
+}
+
+@media only screen and (min-width: 700px) {
+    .social {
+        display: inline-block;
+        float: right;
+        width: 15%;
+        margin-top: 0;
+    }
+
+    #twitter {
+        float: right;
+    }
+
+    #facebook {
+        float: right;
+        margin-right: 0;
+    }
+}
