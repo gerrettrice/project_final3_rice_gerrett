@@ -358,3 +358,62 @@ hr {
     background-image: url(../img/milkshakes.png);
     background-position: top center;
 }
+
+/* Footer */
+footer {
+    width: 100%;
+    background: #333333;
+    padding: 2em;
+    color: white;
+    margin-top: 3em;
+    border-top: 0.4em solid white;
+}
+
+.footer_container {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    font-family: "Orbitron", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.social {
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+}
+
+#twitter {
+    width: 40px;
+    margin-right: 1em;
+}
+
+#facebook {
+    width: 30px;
+    margin-right: 1em;
+}
+
+/* Media query for social icons */
+@media only screen and (min-width: 700px) {
+    .social {
+        display: inline-block;
+        float: right;
+        width: 15%;
+        margin-top: 0;
+    }
+
+    #twitter {
+        float: right;
+    }
+
+    #facebook {
+        float: right;
+        margin-right: 0;
+    }
+}
