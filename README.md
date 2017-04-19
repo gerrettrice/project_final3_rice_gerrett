@@ -53,15 +53,19 @@
 
 * [Milkshake Image](https://s-media-cache-ak0.pinimg.com/originals/ce/7f/8e/ce7f8e7ee0d30ce77f7031c0418fddff.jpg)
 
+* [jQuery Plugin - SMINT](http://www.outyear.co.uk/smint/)
+
+    This plugin creates an element creates a sticky nav that also enables a smooth scrolling effect. This particular plugin restricted my use of semantic HTML. When I tried using sections for my single scroll site's various sections (home, menu, news, and history), the plugin wouldn't work.
+
+* [jQuery Plugin - Text Rotate](https://github.com/peachananr/simple-text-rotator)
+
+    This plugin allowed me to make a subtitle on the landing section that scrolls through a set of words.
+
 # Deductions
 
 I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
-
-jQuery Plugin - SMINT: This plugin creates an element creates a sticky nav that also enables a smooth scrolling effect. This particular plugin restricted my use of semantic HTML. When I tried using sections for my single scroll site's various sections (home, menu, news, and history), the plugin wouldn't work.
-
-jQuery Plugin - Text Rotate: This plugin allowed me to make a subtitle on the landing section that scrolls through a set of words.
 
 Custom jQuery allows the alien in the landing section to hide below the following section when clicked. I was able to further control the transition using CSS styling.
 
