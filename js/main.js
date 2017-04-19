@@ -10,6 +10,13 @@ $(document).ready(function () {
         animation: 'flipCube',
         speed: 1500
     });
+
+    //Clicking the alien will make him dip down
+    $('#alien1').click(function () {
+        $('#alien1').css(
+            'margin-bottom', '-250px'
+        );
+    });
 });
 
 //Add favorite sticker to selected menu items
