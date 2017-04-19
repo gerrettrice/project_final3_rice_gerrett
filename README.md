@@ -15,6 +15,10 @@
 
     I used Google Fonts for all the type on my page.
 
+* [History](http://pixar.wikia.com/wiki/Pizza_Planet)
+
+    I used content from this site and added it to my history section.
+
 * [Pizza Planet Logo](https://s-media-cache-ak0.pinimg.com/originals/f7/07/4c/f7074c17d58aaf61d343267039e0e9f9.jpg)
 
 * [Pizza Planet Martian](http://vignette4.wikia.nocookie.net/pixar/images/a/ae/Alien.jpg/revision/latest?cb=20110220175306)
@@ -48,8 +52,6 @@
 * [Coke Image](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwj7r7j3667TAhUEMyYKHabcApAQjBwIBA&url=http%3A%2F%2Fwww.bitsmania.com.br%2Fwp-content%2Fuploads%2F2016%2F05%2Fmaxresdefault-4.jpg&psig=AFQjCNHKMvJnBPYcq_b_Cvdq8XbrDdRz3Q&ust=1492633685588945)
 
 * [Milkshake Image](https://s-media-cache-ak0.pinimg.com/originals/ce/7f/8e/ce7f8e7ee0d30ce77f7031c0418fddff.jpg)
-
-* [History](http://pixar.wikia.com/wiki/Pizza_Planet)
 
 # Deductions
 
