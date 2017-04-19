@@ -121,3 +121,69 @@ svg {
         margin-right: 18%;
     }
 }
+
+/* Header */
+.subMenu {
+    z-index: 1000;
+    width: 100%;
+    background: #0977bc;
+    position: fixed;
+}
+
+.contact_bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+    background-image: url(../img/cheesetexture.jpg);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.contact_bar ul {
+    min-height: 30px;
+}
+
+.contact_bar ul li {
+    display: inline;
+    position: relative;
+}
+
+.section {
+    padding-top: 2em;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1300px;
+    background: white;
+}
+
+.subNavBtn {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+    text-decoration: none;
+    font-size: 0.7em;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+}
+
+/* Media query for minimizing font-size on small mobile screens */
+@media only screen and (min-width: 500px) {
+    .subNavBtn {
+        font-size: 1.15em;
+    }
+}
+
+.subMenu a:hover {
+    background: #1783c7;
+}
+
+.active {
+    background: #25aae1;
+}
