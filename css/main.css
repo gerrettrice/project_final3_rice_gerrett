@@ -187,3 +187,174 @@ svg {
 .active {
     background: #25aae1;
 }
+
+/* Sections */
+.section_heading {
+    text-align: center;
+}
+
+.inner {
+    position: relative;
+}
+
+.inner::after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid grey;
+    box-shadow: 0 2px 6px #888888;
+    margin: auto;
+    margin-top: 0.3em;
+}
+
+.typography {
+    width: 100%;
+    flex: 1 0 auto;
+    padding: 1em;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Media Query for responsive tablet layout */
+@media only screen and (min-width: 760px) {
+    .flex-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.history {
+    padding: 1em;
+}
+
+.menu_heading {
+    width: 100%;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.flex-item {
+    width: 30%;
+    min-width: 250px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    max-height: 500px;
+    background-size: cover;
+    padding: 4em;
+    margin: 0.2em;
+}
+
+/* Media quiery for responsive mobile layout */
+@media screen and (min-width: 675px) {
+    .typography {
+        width: 40%;
+        padding: 2em;
+    }
+
+    .typography:last-child {
+        width: 100%;
+    }
+
+    .flex-item {
+        margin: 0.15em;
+    }
+}
+
+/* media query for repsonsive tablet layout */
+@media screen and (min-width: 900px) {
+    .typography {
+        width: 30%;
+        padding: 2em;
+    }
+
+    .typography:last-child {
+        width: 30%;
+    }
+}
+
+/* Food Pics */
+.food_pics_container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#onionrings {
+    background-image: url(../img/onionrings.png);
+    background-position: center center;
+}
+
+#fries {
+    background-image: url(../img/fries.jpg);
+    background-position: center center;
+}
+
+#potato {
+    background-image: url(../img/potato.png);
+    background-position: center center;
+}
+
+#slice {
+    background-image: url(../img/slice.png);
+    background-position: bottom center;
+}
+
+#saucer {
+    background-image: url(../img/saucer.jpg);
+    background-position: right center;
+}
+
+#armageddon {
+    background-image: url(../img/armageddon.jpg);
+    background-position: right center;
+}
+
+#cookies {
+    background-image: url(../img/cookies.png);
+}
+
+#lavacake {
+    background-image: url(../img/lavacake.png);
+    background-position: center center;
+}
+
+#pudding {
+    background-image: url(../img/pudding.png);
+    background-position: right center;
+}
+
+#soda {
+    background-image: url(../img/soda.png);
+}
+
+#icee {
+    background-image: url(../img/icee.png);
+    background-position: center center;
+}
+
+#milkshake {
+    background-image: url(../img/milkshakes.png);
+    background-position: top center;
+}
