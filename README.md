@@ -1,13 +1,13 @@
 
 # Links
 
-[GitHub Repo Link](https://github.com/gerrettrice/project_final2_rice_gerrett.git)
+[GitHub Repo Link](https://github.com/gerrettrice/project_final3_rice_gerrett)
 
-[Web Hosted Site](http://gerrettrice.com/project_final2_rice_gerrett/)
+[Web Hosted Site](http://gerrettrice.com/project_final3_rice_gerrett/)
 
-[W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fgerrettrice.com%2Fproject_final2_rice_gerrett%2F)
+[W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fgerrettrice.com%2Fproject_final3_rice_gerrett%2F)
 
-[HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fgerrettrice.com%2Fproject_final2_rice_gerrett%2F)
+[HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fgerrettrice.com%2Fproject_final3_rice_gerrett%2Findex.html)
 
 # Resources
 
