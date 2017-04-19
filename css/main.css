@@ -70,3 +70,54 @@ p {
     color: #333333;
     font-size: 0.8em;
 }
+
+/* Home */
+.sTop {
+    height: 100%;
+}
+
+#landing {
+    width: 100%;
+    background: transparent;
+    background-image: url(../img/stars.png);
+    max-width: 2000px;
+    overflow: hidden;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    margin-left: -6%;
+    margin-top: 55px;
+}
+
+.subtitle {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+    text-shadow: none;
+    color: white;
+}
+
+svg {
+    width: 60%;
+    margin: auto;
+    min-width: 320px;
+}
+
+#alien1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -110px;
+    min-width: 360px;
+    width: 10%;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Media query to restrict alien from moving outside the section's width */
+@media screen and (min-width: 1350px) {
+    #alien1 {
+        margin-right: 18%;
+    }
+}
